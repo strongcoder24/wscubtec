@@ -1,0 +1,156 @@
+ *{
+    font-family: "Inter", sans-serif;
+ }
+ body{
+    padding-bottom: 50px;
+ }
+
+ .call{
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    color: white;
+ }
+ .btn-outer{
+
+ }
+
+ .bannerContent h1{
+    font-size: 52px;
+    font-weight: 700;   
+ }
+
+ .bannerContent h1 span{
+    color:#2699F8;
+ }
+ .bannerContent p{
+    font-size: 22px;
+ }
+
+ .bannerContent ul{
+    list-style: none;
+ }
+ .bannerContent ul li{
+    font-size: 22px;  
+ }
+
+ .bannerContent ul li i{
+    color: #2699F8;
+    margin-right: 10px;
+ }
+ .bannerContentBtn button{
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: none;
+ }
+ .bannerContentBtn button:first-child{
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    color: white;
+    
+
+ }
+
+ .bannerForm{
+    padding: 40px;  
+    border-radius: 10px;
+ }
+
+ .bannerForm h3{
+    font-size: 18px;
+    font-weight: 700; 
+ }
+
+ .bannerForm button{
+    width: 100%;
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    padding: 10px 0px;
+    border: none;
+    color: white;
+ }
+
+ .counterSection h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #0ACEFE;
+ }
+
+ .highlights-section{
+    background-color: #F7FAFF;
+ }
+ .highlights-section h2{
+    font-size:36px ;
+    color:#0A2134;
+    font-weight: 700;
+ }
+
+ .highlights-section p{
+    font-size: 18px;
+ }
+
+ .highlight-items i{
+    color: #0ACEFE;
+    font-size: 36px;
+    /* margin-right: 5px; */
+ }
+
+ .highlight-items h4{
+    font-size: 16px;
+    font-weight: 600;
+ }
+ .highlight-items p{
+    font-size: 14px;
+ }
+
+ .book-btn{
+   background: linear-gradient(to right,#0ACEFE,#2699FB);
+   color: white;
+   border: none;
+   padding: 10px 0px;
+   width: 20%;
+   border-radius: 10px;
+   font-weight: 700;
+  font-size: 16px;
+ }
+
+ .Certificate{
+   background-color: #e2e9ea;
+ }
+
+ .feature-card{
+   border-radius: 10px;
+ }
+
+ .carriculumn ul li i{
+   color: #0ACEFE;
+   margin-right: 5px;
+ }
+
+ .carriculumn-downloadBtn{
+   background: linear-gradient(to right,#0ACEFE,#2699FB);
+   border: none;
+   padding: 5px;
+   border-radius: 10px;
+   color: white;
+   font-weight: 700;
+   font-size: 16px;
+ }
+
+ .bg-overlay {
+   background: url('../images/bg-image.JPG') center/cover no-repeat;
+   position: relative;
+   height: 300px;
+}
+
+.bg-overlay::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   /* background: rgba(0, 0, 0, 0.5); Dark overlay */
+}
+
+.card-body {
+   position: relative;
+   z-index: 1;
+}
