@@ -135,7 +135,7 @@
  }
 
  .bg-overlay {
-   background: url('bg-image.JPG') center/cover no-repeat;
+   background: url('./bg-image.JPG') center/cover no-repeat;
    position: relative;
    height: 300px;
 }
